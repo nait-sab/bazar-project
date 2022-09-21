@@ -11,6 +11,12 @@
 		EC14808F28DB3C3200C3F3D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC14808E28DB3C3200C3F3D9 /* ContentView.swift */; };
 		EC14809128DB3C3600C3F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC14809028DB3C3600C3F3D9 /* Assets.xcassets */; };
 		EC14809428DB3C3600C3F3D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC14809328DB3C3600C3F3D9 /* Preview Assets.xcassets */; };
+		EC14809C28DB3C9C00C3F3D9 /* accueilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC14809B28DB3C9C00C3F3D9 /* accueilView.swift */; };
+		EC14809E28DB3CC800C3F3D9 /* firebaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC14809D28DB3CC800C3F3D9 /* firebaseView.swift */; };
+		EC1480A028DB3CD200C3F3D9 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC14809F28DB3CD200C3F3D9 /* userView.swift */; };
+		EC1480A228DB5F1100C3F3D9 /* jsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A128DB5F1100C3F3D9 /* jsonView.swift */; };
+		EC1480A528DB60FA00C3F3D9 /* jsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */; };
+		EC1480A828DB63BD00C3F3D9 /* apiJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A728DB63BD00C3F3D9 /* apiJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		EC14808E28DB3C3200C3F3D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC14809028DB3C3600C3F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC14809328DB3C3600C3F3D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC14809B28DB3C9C00C3F3D9 /* accueilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accueilView.swift; sourceTree = "<group>"; };
+		EC14809D28DB3CC800C3F3D9 /* firebaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseView.swift; sourceTree = "<group>"; };
+		EC14809F28DB3CD200C3F3D9 /* userView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userView.swift; sourceTree = "<group>"; };
+		EC1480A128DB5F1100C3F3D9 /* jsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonView.swift; sourceTree = "<group>"; };
+		EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonModel.swift; sourceTree = "<group>"; };
+		EC1480A728DB63BD00C3F3D9 /* apiJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,9 @@
 		EC14808B28DB3C3200C3F3D9 /* bazar-ccm */ = {
 			isa = PBXGroup;
 			children = (
+				EC1480A628DB63AD00C3F3D9 /* tools */,
+				EC1480A328DB60E000C3F3D9 /* models */,
+				EC14809A28DB3C8900C3F3D9 /* views */,
 				EC14808C28DB3C3200C3F3D9 /* bazar_ccmApp.swift */,
 				EC14808E28DB3C3200C3F3D9 /* ContentView.swift */,
 				EC14809028DB3C3600C3F3D9 /* Assets.xcassets */,
@@ -65,6 +80,33 @@
 				EC14809328DB3C3600C3F3D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC14809A28DB3C8900C3F3D9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EC14809B28DB3C9C00C3F3D9 /* accueilView.swift */,
+				EC14809D28DB3CC800C3F3D9 /* firebaseView.swift */,
+				EC14809F28DB3CD200C3F3D9 /* userView.swift */,
+				EC1480A128DB5F1100C3F3D9 /* jsonView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EC1480A328DB60E000C3F3D9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EC1480A628DB63AD00C3F3D9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				EC1480A728DB63BD00C3F3D9 /* apiJson.swift */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1480A228DB5F1100C3F3D9 /* jsonView.swift in Sources */,
 				EC14808F28DB3C3200C3F3D9 /* ContentView.swift in Sources */,
+				EC14809E28DB3CC800C3F3D9 /* firebaseView.swift in Sources */,
+				EC1480A028DB3CD200C3F3D9 /* userView.swift in Sources */,
+				EC1480A828DB63BD00C3F3D9 /* apiJson.swift in Sources */,
+				EC1480A528DB60FA00C3F3D9 /* jsonModel.swift in Sources */,
 				EC14808D28DB3C3200C3F3D9 /* bazar_ccmApp.swift in Sources */,
+				EC14809C28DB3C9C00C3F3D9 /* accueilView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
