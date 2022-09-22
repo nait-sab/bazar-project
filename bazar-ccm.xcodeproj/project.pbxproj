@@ -17,6 +17,7 @@
 		EC1480A228DB5F1100C3F3D9 /* jsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A128DB5F1100C3F3D9 /* jsonView.swift */; };
 		EC1480A528DB60FA00C3F3D9 /* jsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */; };
 		EC1480A828DB63BD00C3F3D9 /* apiJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A728DB63BD00C3F3D9 /* apiJson.swift */; };
+		EC66534E28DC45AD005B3528 /* pageDetailJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66534D28DC45AD005B3528 /* pageDetailJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EC1480A128DB5F1100C3F3D9 /* jsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonView.swift; sourceTree = "<group>"; };
 		EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonModel.swift; sourceTree = "<group>"; };
 		EC1480A728DB63BD00C3F3D9 /* apiJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiJson.swift; sourceTree = "<group>"; };
+		EC66534D28DC45AD005B3528 /* pageDetailJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageDetailJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				EC14808E28DB3C3200C3F3D9 /* ContentView.swift */,
 				EC14809028DB3C3600C3F3D9 /* Assets.xcassets */,
 				EC14809228DB3C3600C3F3D9 /* Preview Content */,
+				EC66534D28DC45AD005B3528 /* pageDetailJson.swift */,
 			);
 			path = "bazar-ccm";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				EC14809E28DB3CC800C3F3D9 /* firebaseView.swift in Sources */,
 				EC1480A028DB3CD200C3F3D9 /* userView.swift in Sources */,
 				EC1480A828DB63BD00C3F3D9 /* apiJson.swift in Sources */,
+				EC66534E28DC45AD005B3528 /* pageDetailJson.swift in Sources */,
 				EC1480A528DB60FA00C3F3D9 /* jsonModel.swift in Sources */,
 				EC14808D28DB3C3200C3F3D9 /* bazar_ccmApp.swift in Sources */,
 				EC14809C28DB3C9C00C3F3D9 /* accueilView.swift in Sources */,

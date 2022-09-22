@@ -13,9 +13,9 @@ struct jsonView: View {
     var body: some View {
         NavigationView {
             List(users) { user in
-                HStack {
-                    Text(user.name).font(.headline)
-                }.padding(10)
+                NavigationLink(destination: pageDetailJson(user: user)) {
+                    tableauLigne(user: user)
+                }
             }
             .navigationBarTitle("Données JSON")
             .onAppear {
@@ -25,6 +25,17 @@ struct jsonView: View {
                 }
             }
         }
+    }
+}
+
+struct tableauLigne: View {
+    let user: User
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(user.name).font(.headline)
+            Text(user.email).font(.headline)
+        }.padding(10)
     }
 }
 

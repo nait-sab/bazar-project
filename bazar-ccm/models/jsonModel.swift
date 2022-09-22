@@ -20,6 +20,4 @@ struct User : Codable, Identifiable {
         case username
         case email
     }
-    
-    //https://www.youtube.com/watch?v=R_f0GdEwvn8
 }
