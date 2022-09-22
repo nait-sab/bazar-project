@@ -18,10 +18,18 @@
 		EC1480A528DB60FA00C3F3D9 /* jsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */; };
 		EC1480A828DB63BD00C3F3D9 /* apiJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1480A728DB63BD00C3F3D9 /* apiJson.swift */; };
 		EC66534E28DC45AD005B3528 /* pageDetailJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66534D28DC45AD005B3528 /* pageDetailJson.swift */; };
+		EC66535028DC5405005B3528 /* pageMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66534F28DC5405005B3528 /* pageMaps.swift */; };
+		EC66535728DC92D9005B3528 /* PageInscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66535628DC92D9005B3528 /* PageInscription.swift */; };
+		EC66535C28DCA05C005B3528 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC66535B28DCA05C005B3528 /* FirebaseAuth */; };
+		EC66535E28DCA05C005B3528 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EC66535D28DCA05C005B3528 /* FirebaseFirestore */; };
+		EC66536028DCA0EE005B3528 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC66535F28DCA0EE005B3528 /* GoogleService-Info.plist */; };
+		EC66536228DCB189005B3528 /* firebaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66536128DCB189005B3528 /* firebaseTool.swift */; };
+		EC66536428DCB45B005B3528 /* PageConnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66536328DCB45B005B3528 /* PageConnexion.swift */; };
+		EC66536628DCB67B005B3528 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66536528DCB67B005B3528 /* MessageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC14808928DB3C3200C3F3D9 /* bazar-ccm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bazar-ccm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC14808928DB3C3200C3F3D9 /* Bazar CCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bazar CCM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC14808C28DB3C3200C3F3D9 /* bazar_ccmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bazar_ccmApp.swift; sourceTree = "<group>"; };
 		EC14808E28DB3C3200C3F3D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC14809028DB3C3600C3F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +41,12 @@
 		EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonModel.swift; sourceTree = "<group>"; };
 		EC1480A728DB63BD00C3F3D9 /* apiJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiJson.swift; sourceTree = "<group>"; };
 		EC66534D28DC45AD005B3528 /* pageDetailJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageDetailJson.swift; sourceTree = "<group>"; };
+		EC66534F28DC5405005B3528 /* pageMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageMaps.swift; sourceTree = "<group>"; };
+		EC66535628DC92D9005B3528 /* PageInscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInscription.swift; sourceTree = "<group>"; };
+		EC66535F28DCA0EE005B3528 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC66536128DCB189005B3528 /* firebaseTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseTool.swift; sourceTree = "<group>"; };
+		EC66536328DCB45B005B3528 /* PageConnexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageConnexion.swift; sourceTree = "<group>"; };
+		EC66536528DCB67B005B3528 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC66535C28DCA05C005B3528 /* FirebaseAuth in Frameworks */,
+				EC66535E28DCA05C005B3528 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +73,7 @@
 		EC14808A28DB3C3200C3F3D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC14808928DB3C3200C3F3D9 /* bazar-ccm.app */,
+				EC14808928DB3C3200C3F3D9 /* Bazar CCM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,14 +81,15 @@
 		EC14808B28DB3C3200C3F3D9 /* bazar-ccm */ = {
 			isa = PBXGroup;
 			children = (
+				EC66535328DC7013005B3528 /* pages */,
 				EC1480A628DB63AD00C3F3D9 /* tools */,
 				EC1480A328DB60E000C3F3D9 /* models */,
 				EC14809A28DB3C8900C3F3D9 /* views */,
 				EC14808C28DB3C3200C3F3D9 /* bazar_ccmApp.swift */,
 				EC14808E28DB3C3200C3F3D9 /* ContentView.swift */,
 				EC14809028DB3C3600C3F3D9 /* Assets.xcassets */,
+				EC66535F28DCA0EE005B3528 /* GoogleService-Info.plist */,
 				EC14809228DB3C3600C3F3D9 /* Preview Content */,
-				EC66534D28DC45AD005B3528 /* pageDetailJson.swift */,
 			);
 			path = "bazar-ccm";
 			sourceTree = "<group>";
@@ -100,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */,
+				EC66536528DCB67B005B3528 /* MessageModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -108,8 +126,20 @@
 			isa = PBXGroup;
 			children = (
 				EC1480A728DB63BD00C3F3D9 /* apiJson.swift */,
+				EC66536128DCB189005B3528 /* firebaseTool.swift */,
 			);
 			path = tools;
+			sourceTree = "<group>";
+		};
+		EC66535328DC7013005B3528 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				EC66534D28DC45AD005B3528 /* pageDetailJson.swift */,
+				EC66534F28DC5405005B3528 /* pageMaps.swift */,
+				EC66535628DC92D9005B3528 /* PageInscription.swift */,
+				EC66536328DCB45B005B3528 /* PageConnexion.swift */,
+			);
+			path = pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +158,12 @@
 			dependencies = (
 			);
 			name = "bazar-ccm";
+			packageProductDependencies = (
+				EC66535B28DCA05C005B3528 /* FirebaseAuth */,
+				EC66535D28DCA05C005B3528 /* FirebaseFirestore */,
+			);
 			productName = "bazar-ccm";
-			productReference = EC14808928DB3C3200C3F3D9 /* bazar-ccm.app */;
+			productReference = EC14808928DB3C3200C3F3D9 /* Bazar CCM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,6 +190,9 @@
 				Base,
 			);
 			mainGroup = EC14808028DB3C3200C3F3D9;
+			packageReferences = (
+				EC66535A28DCA05C005B3528 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EC14808A28DB3C3200C3F3D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,6 +209,7 @@
 			files = (
 				EC14809428DB3C3600C3F3D9 /* Preview Assets.xcassets in Resources */,
 				EC14809128DB3C3600C3F3D9 /* Assets.xcassets in Resources */,
+				EC66536028DCA0EE005B3528 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,12 +221,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1480A228DB5F1100C3F3D9 /* jsonView.swift in Sources */,
+				EC66535028DC5405005B3528 /* pageMaps.swift in Sources */,
 				EC14808F28DB3C3200C3F3D9 /* ContentView.swift in Sources */,
+				EC66536428DCB45B005B3528 /* PageConnexion.swift in Sources */,
 				EC14809E28DB3CC800C3F3D9 /* firebaseView.swift in Sources */,
+				EC66536228DCB189005B3528 /* firebaseTool.swift in Sources */,
 				EC1480A028DB3CD200C3F3D9 /* userView.swift in Sources */,
 				EC1480A828DB63BD00C3F3D9 /* apiJson.swift in Sources */,
 				EC66534E28DC45AD005B3528 /* pageDetailJson.swift in Sources */,
+				EC66536628DCB67B005B3528 /* MessageModel.swift in Sources */,
 				EC1480A528DB60FA00C3F3D9 /* jsonModel.swift in Sources */,
+				EC66535728DC92D9005B3528 /* PageInscription.swift in Sources */,
 				EC14808D28DB3C3200C3F3D9 /* bazar_ccmApp.swift in Sources */,
 				EC14809C28DB3C9C00C3F3D9 /* accueilView.swift in Sources */,
 			);
@@ -323,6 +366,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"bazar-ccm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -334,7 +378,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.naitsab.bazar-ccm";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bazar CCM";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,6 +395,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"bazar-ccm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -362,7 +407,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.naitsab.bazar-ccm";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bazar CCM";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,6 +436,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC66535A28DCA05C005B3528 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC66535B28DCA05C005B3528 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC66535A28DCA05C005B3528 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EC66535D28DCA05C005B3528 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC66535A28DCA05C005B3528 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC14808128DB3C3200C3F3D9 /* Project object */;
 }

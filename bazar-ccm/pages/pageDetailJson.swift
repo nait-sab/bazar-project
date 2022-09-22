@@ -12,7 +12,7 @@ struct pageDetailJson: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Username : \(user.username)").font(.title2).multilineTextAlignment(.leading)
                 Text("Email : \(user.email)").font(.title2).multilineTextAlignment(.leading)
             }

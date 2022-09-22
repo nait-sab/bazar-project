@@ -9,9 +9,26 @@ import SwiftUI
 
 struct userView: View {
     var body: some View {
-        ZStack {
-            Color.blue
-            Text("User").foregroundColor(Color.white)
+        NavigationView {
+            List {
+                NavigationLink(destination: pageMaps()) {
+                    Text("Voir ma position")
+                }
+                if FirebaseTool.isLogged() {
+                    NavigationLink(destination: PageInscription()) {
+                        Text("Inscription Firebase")
+                    }
+                    NavigationLink(destination: PageConnexion()) {
+                        Text("Connexion Firebase")
+                    }
+                } else {
+                    Button("Déconnexion") {
+                        FirebaseTool.deconnexion()
+                    }
+                }
+            }.onAppear {
+                UITableView.appearance().backgroundColor = .clear
+            }
         }
     }
 }
