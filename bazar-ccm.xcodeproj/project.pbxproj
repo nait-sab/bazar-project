@@ -64,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C58037BE29668FDE000375EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C58037BB29667F86000375EA /* ViewModelMessage.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		EC14808028DB3C3200C3F3D9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +91,7 @@
 		EC14808B28DB3C3200C3F3D9 /* bazar-ccm */ = {
 			isa = PBXGroup;
 			children = (
+				C58037BE29668FDE000375EA /* ViewModels */,
 				EC66535328DC7013005B3528 /* pages */,
 				EC1480A628DB63AD00C3F3D9 /* tools */,
 				EC1480A328DB60E000C3F3D9 /* models */,
@@ -120,7 +129,6 @@
 			children = (
 				EC1480A428DB60FA00C3F3D9 /* jsonModel.swift */,
 				EC66536528DCB67B005B3528 /* MessageModel.swift */,
-				C58037BB29667F86000375EA /* ViewModelMessage.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
