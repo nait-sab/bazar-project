@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MessageModel {
+struct MessageModel: Identifiable {
     var id: String
     var message: String
 }

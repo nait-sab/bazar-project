@@ -14,7 +14,7 @@ struct userView: View {
                 NavigationLink(destination: pageMaps()) {
                     Text("Voir ma position")
                 }
-                if FirebaseTool.isLogged() {
+                if !FirebaseTool.isLogged() {
                     NavigationLink(destination: PageInscription()) {
                         Text("Inscription Firebase")
                     }
@@ -26,8 +26,6 @@ struct userView: View {
                         FirebaseTool.deconnexion()
                     }
                 }
-            }.onAppear {
-                UITableView.appearance().backgroundColor = .clear
             }
         }
     }

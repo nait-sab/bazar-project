@@ -12,16 +12,18 @@ struct jsonView: View {
     
     var body: some View {
         NavigationView {
-            List(users) { user in
-                NavigationLink(destination: pageDetailJson(user: user)) {
-                    tableauLigne(user: user)
+            VStack {
+                List(users) { user in
+                    NavigationLink(destination: pageDetailJson(user: user)) {
+                        tableauLigne(user: user)
+                    }
                 }
-            }
-            .navigationBarTitle("Données JSON")
-            .onAppear {
-                ApiJson().getUsers {
-                    (users) in
-                    self.users = users
+                .navigationBarTitle("Données JSON")
+                .onAppear {
+                    ApiJson().getUsers {
+                        (users) in
+                        self.users = users
+                    }
                 }
             }
         }
