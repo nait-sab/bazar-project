@@ -1,14 +1,14 @@
 //
-//  pageMaps.swift
+//  userView.swift
 //  bazar-ccm
 //
-//  Created by etudiant on 22/09/2022.
+//  Created by etudiant on 21/09/2022.
 //
 
 import SwiftUI
 import MapKit
 
-struct pageMaps: View {
+struct MapTab: View {
     @StateObject private var mapsModel = MapsModel()
     
     var body: some View {
@@ -18,9 +18,9 @@ struct pageMaps: View {
     }
 }
 
-struct pageMaps_Previews: PreviewProvider {
+struct userView_Previews: PreviewProvider {
     static var previews: some View {
-        pageMaps()
+        MapTab()
     }
 }
 
